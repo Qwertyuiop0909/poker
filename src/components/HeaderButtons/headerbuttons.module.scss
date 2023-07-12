@@ -1,9 +1,9 @@
 .headerbuttons{
     display: inline-flex;
     align-items: flex-start;
-    gap: 16px;
-    max-width: 472px;
-    height: 32px;
+    gap: calc(16px * 100vw / 1440px);
+    width: calc(472 * 100vw/1440);
+    height: calc(32 * 100vw/1440);
     z-index: 2;
     position: fixed;
     right: 40.77px;
@@ -12,8 +12,7 @@
 
 .mainbutton{
     background-color: black;
-    height: 32px;
-    width: 32px;
+    height: 100%;
     padding: 0;
     border: none;
     cursor: pointer;
@@ -28,7 +27,7 @@
     border-radius: 10px;
     background: #242222;
     box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.60), 0px 7px 0px 0px #000;
-    height: 32px;
+    height: 100%;
     width: 108.117px;
     cursor: pointer;
     color: #D9D9D9;
@@ -53,7 +52,7 @@
     border-radius: 10px;
     background: #361414;
     box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.60), 0px 7px 0px 0px #000;
-    height: 32px;
+    height: 100%;
     width: 108.117px;
     cursor: pointer;
     color: #FBB;
