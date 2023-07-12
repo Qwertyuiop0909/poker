@@ -1,0 +1,48 @@
+.switchbutton{
+    background: inherit;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    position: relative;
+    display: flex;
+    justify-content: center;;
+}
+.switchbuttonwrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+}
+.choosen{
+    position: relative;
+    z-index: 1;
+}
+.signinbutton{
+    position: relative;
+    right: -18.125px;
+    svg{
+        height: calc(67.5px * 100vh / 1026px);
+        width: calc(269px * 100vh / 1026px);
+    }
+    
+}
+.signupbutton{
+    position: relative;
+    left: -18.125px;
+    svg{
+        height: calc(75px * 100vh / 1026px);
+        width: calc(269px * 100vh / 1026px);
+    }
+}
+.switcherspan{
+    position: absolute;
+    top: calc(14px * 100vh / 1026px);
+    color: #FFC93D;
+    text-align: center;
+    text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-family: Philosopher;
+    font-size: calc(24px * 100vh / 1026px);
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
