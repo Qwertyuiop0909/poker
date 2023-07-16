@@ -1,8 +1,14 @@
 .formwrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    width: calc(593px * 85vh / 1026px);
     svg{
         position: relative;
         top: calc(-24.5px * 100vh / 1026px);
         z-index: 2;
-        height: calc(800px * 100vh / 1026px);
+        height: calc(800px * 85vh / 1026px);
     }
 }

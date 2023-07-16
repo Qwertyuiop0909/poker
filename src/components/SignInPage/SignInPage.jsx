@@ -1,7 +1,9 @@
+import { SignupForm } from '../SignInForm/SignInForm'
 import styles from './signinpage.module.scss'
 
 export const SignInPage = () => (
   <div className={styles.formwrapper}>
+    <SignupForm />
     <svg xmlns="http://www.w3.org/2000/svg" width="593" height="741" viewBox="0 0 593 741" fill="none">
       <g filter="url(#filter0_d_6_2845)">
         <path d="M0 1.00002C0 -15.5685 13.4315 -29 30 -29H562.984C579.553 -29 592.984 -15.5685 592.984 1V741C592.984 757.569 579.553 771 562.984 771H30C13.4314 771 0 757.569 0 741V1.00002Z" fill="url(#paint0_linear_6_2845)" />
