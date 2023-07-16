@@ -1,7 +1,7 @@
 .signinform{
     display: flex;
     flex-direction: column;
-    gap: calc(10px * 100vh / 1026px);
+    gap: calc(10px * 85vh / 1026px);
     z-index: 4;
     position: absolute;
     top: 0;
@@ -47,8 +47,8 @@
     input{
         padding: 0;
         margin: 0px 11px 0px 0px;
-        height: 20px;
-        width: 20px;
+        height: calc(20px * 85vh / 1026px);
+        width: calc(20px * 85vh / 1026px);
         cursor: pointer;
         box-shadow: none;
     }
@@ -117,6 +117,7 @@
     background-color: white;
     padding: 10px 0px;
     height: calc(108px * 85vh / 1026px);
+    width: calc(400px * 85vh / 1026px);
 }
 
 .bottombuttons{
