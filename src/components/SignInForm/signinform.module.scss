@@ -130,6 +130,7 @@
         background: linear-gradient(180deg, #353535 0%, #343434 52.69%, #282828 100%);
         border: 1px solid white;
         border-radius: 11px;
+        cursor: pointer;
         height: calc(42px * 85vh / 1026px);
         color: #FFF;
         text-align: center;
@@ -139,9 +140,28 @@
         font-style: normal;
         font-weight: 700;
         line-height: normal;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+        img{
+            width: calc(28px * 85vh / 1026px);
+            height: calc(28px * 85vh / 1026px);
+        }
     }
 }
 #guestbutton{
     color: #72FC05;
     grid-column: 1 / -1;
+    display: flex;
+}
+
+.leftimg{
+    margin-left: calc(20px * 85vh / 1026px);
+    justify-self: flex-start;
+}
+
+.rightimg{
+    margin-right: calc(20px * 85vh / 1026px);
+    justify-self: flex-end;
 }

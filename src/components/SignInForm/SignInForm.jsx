@@ -3,6 +3,10 @@
 import { useFormik } from 'formik'
 import * as Yup from 'yup'
 import styles from './signinform.module.scss'
+import google from './icons/Google.png'
+import facebook from './icons/Facebook.png'
+import apple from './icons/Apple.png'
+import yandex from './icons/Yandex.png'
 
 export const SignupForm = () => {
   const formik = useFormik({
@@ -66,11 +70,28 @@ export const SignupForm = () => {
         </div>
         <hr />
         <div className={styles.bottombuttons}>
-          <button type="button" id={styles.guestbutton}>Гостевой аккаунт(только просмотр)</button>
-          <button type="button">Google</button>
-          <button type="button">Facebook</button>
-          <button type="button">Apple</button>
-          <button type="button">Yandex</button>
+          <button type="button" id={styles.guestbutton}>
+            <div />
+            Гостевой аккаунт(только просмотр)
+          </button>
+          <button type="button">
+            <img className={styles.leftimg} src={google} alt="google" />
+            Google
+          </button>
+          <button type="button">
+            <div />
+            Apple
+            <img className={styles.rightimg} src={apple} alt="google" />
+          </button>
+          <button type="button">
+            <img className={styles.leftimg} src={facebook} alt="google" />
+            Facebook
+          </button>
+          <button type="button">
+            <div />
+            Yandex
+            <img className={styles.rightimg} src={yandex} alt="google" />
+          </button>
         </div>
       </div>
     </form>
